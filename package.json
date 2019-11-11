@@ -1,0 +1,41 @@
+{
+  "name": "climan",
+  "version": "1.0.0",
+  "description": "argument parsing once more",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "files": ["lib/*"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "lint": "eslint src/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/md5crypt/climan.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "parser"
+  ],
+  "author": "Marek Korzeniowski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/md5crypt/climan/issues"
+  },
+  "homepage": "https://github.com/md5crypt/climan#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.12.7",
+    "@typescript-eslint/eslint-plugin": "^2.6.1",
+    "@typescript-eslint/parser": "^2.6.1",
+    "eslint": "^6.6.0",
+    "typescript": "^3.7.2"
+  }
+}
